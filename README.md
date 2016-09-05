@@ -2,7 +2,7 @@
 
 Description of my code and development environment
 
-My code is written in C and I develop my project in Xcode. In the server, I use select function to listen to connection request and receive message from each connected socket. When server receive connect request, it creates a new thread to handle the login authentication, and the main thread go on to listen to other connected sockets. When receive a new message from client, server judge the command and call specific function to execute that command.
+In my program, server can listen to connection request and receive message from each connected socket. When server receive connect request, it creates a new thread to handle the login authentication, and the main thread go on to listen to other connected sockets. When receive a new message from client, server judge the command and call specific function to execute that command.
 
 Instructions on how to run my code
 
